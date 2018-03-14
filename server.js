@@ -7,6 +7,3 @@ var server = http.createServer(function(req,res){
 
 server.listen(http_port, http_IP);
 console.log("Listening to http://" + http_IP + ":" + http_port);
-
-
-
